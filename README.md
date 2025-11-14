@@ -40,6 +40,7 @@ conda activate weak_self
 ### Step 2: Install PyTorch
 
 ```bash
+cd Weak_and_Self-supervision
 pip install -r requirements.txt
 ```
 
