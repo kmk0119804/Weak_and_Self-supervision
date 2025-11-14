@@ -44,7 +44,7 @@ cd Weak_and_Self-supervision
 pip install -r requirements.txt
 ```
 
-### Step 3: Install YOLOv8
+### Step 3: Install YOLOv8(optional)
 
 ```bash
 pip install ultralytics
@@ -67,7 +67,7 @@ pip install opencv-python pillow
 - **Installation Guide**: https://github.com/facebookresearch/segment-anything#installation
 - **Model Checkpoints**: https://github.com/facebookresearch/segment-anything#model-checkpoints
 
-### Step 5: Install Additional Dependencies
+### Step 5: Install Additional Dependencies(optional)
 
 ```bash
 pip install numpy opencv-python pillow tqdm
