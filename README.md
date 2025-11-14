@@ -57,9 +57,7 @@ pip install ultralytics
 ### Step 4: Install Segment Anything Model (SAM)
 
 ```bash
-pip install git+https://github.com/facebookresearch/segment-anything.git --no-build-isolation
 pip install segment-anything
-pip install opencv-python pillow
 ```
 
 **For SAM setup, model checkpoints, and usage, refer to:**
