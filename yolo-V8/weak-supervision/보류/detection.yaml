@@ -1,0 +1,17 @@
+# train : /home/yeji/Desktop/research/detection/images/train
+# val : /home/yeji/Desktop/research/detection/images/val
+# # test : /home/yeji/Desktop/dataset/images/test
+
+# names:
+#     0: person
+
+train : /home/yeji/Desktop/research/DATA_optimization/images/train
+val : /home/yeji/Desktop/research/DATA_optimization/images/val
+# test : /home/yeji/Desktop/research/detection_yolov8/data_detectioin/images/test
+
+
+names:
+    0: worekr
+    1: hardhat
+    2: strap
+    3: hook

@@ -1,0 +1,200 @@
+# ===== Project Specific =====
+
+# Large dataset files (provide via form)
+# datasets/
+# dataset/
+
+# Large model checkpoints
+# *.pt
+# *.pth
+# *.onnx
+
+# Training outputs
+# runs/
+# wandb/
+
+# SAM intermediate outputs
+# sam_output/
+
+
+# ===== Media Files =====
+
+# Images
+# *.jpg
+# *.jpeg
+# *.png
+# *.bmp
+# *.gif
+# *.tif
+# *.tiff
+# *.webp
+# *.svg
+# *.ico
+
+# Videos
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.mkv
+
+
+# ===== Data & Database =====
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+
+# Configuration files with secrets
+*.ini
+*.env
+.env.local
+config.local.yml
+secrets.yml
+
+# CSV/Excel data files
+# *.csv
+# *.xlsx
+
+
+# ===== Python =====
+
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+
+# ===== IDEs & Editors =====
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Spyder
+.spyderproject
+.spyproject
+
+
+# ===== Operating Systems =====
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+.nfs*
+
+
+# ===== Logs & Temporary =====
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.*.swp
+.*.swo
+*.bak
+*.cache
+
+# Tensorboard
+events.out.tfevents.*
+
+
+# ===== Misc =====
+
+# Compressed files
+# *.zip
+# *.tar.gz
+# *.rar
+
+# Backup files
+*.backup
+*-backup

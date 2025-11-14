@@ -1,0 +1,55 @@
+# ============================================================================
+# Dataset Configuration
+# ============================================================================
+
+# ============================================================================
+# TODO: Update these paths to your dataset location
+# ============================================================================
+
+# Training set
+train: /path/to/your/dataset/images/train  # CHANGE THIS!
+
+# Validation set
+val: /path/to/your/dataset/images/val      # CHANGE THIS!
+
+# Optional: Test set
+# test: /path/to/your/dataset/images/test
+
+# ============================================================================
+# Class Names (Construction Site Safety)
+# ============================================================================
+names:
+  0: worker     # Construction worker
+  1: hardhat    # Safety helmet
+  2: strap      # Safety strap/harness
+  3: hook       # Safety hook
+
+# Number of classes
+nc: 4
+
+# ============================================================================
+# Dataset Structure
+# ============================================================================
+# Your dataset should be organized as follows:
+#
+# dataset/
+# ├── images/
+# │   ├── train/
+# │   │   ├── image001.jpg
+# │   │   ├── image002.jpg
+# │   │   └── ...
+# │   └── val/
+# │       ├── image001.jpg
+# │       └── ...
+# └── labels/
+#     ├── train/
+#     │   ├── image001.txt
+#     │   ├── image002.txt
+#     │   └── ...
+#     └── val/
+#         ├── image001.txt
+#         └── ...
+#
+# Label format (YOLO segmentation):
+# class_id x1 y1 x2 y2 x3 y3 ... xn yn
+# where (x, y) are normalized coordinates [0, 1]

@@ -1,0 +1,46 @@
+# Weak and Self-Supervision Model Requirements
+# YOLOv8 + SAM 
+
+# PyTorch 
+torch==2.0.1
+torchvision==0.15.2
+triton==2.0.0
+
+# Core CV libraries
+numpy==1.24.3
+opencv-python==4.7.0.72
+Pillow==9.5.0
+
+# YOLOv8
+ultralytics==8.3.203
+ultralytics-thop==2.0.17
+
+# Segmentation tools
+albumentations==1.2.1
+segmentation-models-pytorch==0.3.0
+pycocotools==2.0.7
+
+# Model utilities
+timm==0.4.12
+efficientnet-pytorch==0.7.1
+thop==0.1.1.post2209072238
+
+# Data processing
+pandas==2.0.2
+scipy==1.10.1
+scikit-image==0.19.3
+
+# Visualization
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Utilities
+tqdm==4.65.0
+PyYAML==6.0
+requests==2.31.0
+
+# Export
+onnx==1.14.0
+
+# SAM installation
+segment-anything @ git+https://github.com/facebookresearch/segment-anything.git
