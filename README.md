@@ -40,14 +40,7 @@ conda activate weak_self
 ### Step 2: Install PyTorch
 
 ```bash
-# Install PyTorch with CUDA 11.8
-conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia -y
-
-# Or for CUDA 12.1
-# conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia -y
-
-# Verify installation
-python -c "import torch; print('PyTorch:', torch.__version__); print('CUDA:', torch.cuda.is_available())"
+pip install -r requirements.txt
 ```
 
 ### Step 3: Install YOLOv8
