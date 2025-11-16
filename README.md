@@ -95,8 +95,8 @@ cd ..
 **Process:**
 ```bash
 cd yolo-V8/baseline
-python train.py
-python inference.py
+python baseline_train.py
+python baseline_inference.py
 ```
 
 **📖 Detailed Guide:** See `yolo-V8/baseline/README.md`
