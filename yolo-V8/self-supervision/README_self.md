@@ -32,8 +32,8 @@ self-supervision/
 
 ```
 Training Set:
-├── Target domain (100%) + Pseudo labels (from weak model)
-└── Source domain (10-20%) + Ground truth labels
+├── Target domain + Pseudo labels (from weak model)
+└── Source domain + Ground truth labels
 
 Validation Set:
 ├── Target domain validation
@@ -434,4 +434,4 @@ mv dataset/labels/val_origin dataset/labels/val
 ---
 
 **Version:** 1.0  
-**Last Updated:** 2024
+**Last Updated:** 2025
