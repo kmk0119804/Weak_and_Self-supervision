@@ -152,8 +152,8 @@ mv dataset/labels/val_origin dataset/labels/val
 dataset/
 ├── images/
 │   ├── train/
-│   │   ├── [target domain images]     # 100%
-│   │   └── [source domain images]     # 10-20%
+│   │   ├── [target domain images]    
+│   │   └── [source domain images]     
 │   └── val/
 │       ├── [target domain val]
 │       └── [source domain val]
@@ -405,7 +405,7 @@ mv dataset/labels/val_origin dataset/labels/val
 ### Low Pseudo Label Quality
 
 **Solutions:**
-1. Increase confidence threshold in Step 1: `conf=0.5`
+1. Increase confidence threshold in Step 1: `conf=0.25`
 2. Train weak model longer
 3. Filter pseudo labels by confidence
 
@@ -413,8 +413,8 @@ mv dataset/labels/val_origin dataset/labels/val
 
 **Solutions:**
 1. Reduce augmentation strength
-2. Increase training epochs (500+)
-3. Add more source domain labels (20-30%)
+2. Increase training epochs 
+3. Add more source domain labels 
 
 ### Path Errors
 
