@@ -134,7 +134,7 @@ python step5_json_to_yolo.py
 **Location:** `yolo-V8/weak-supervision/`
 
 **Training Data:**
-- Target domain (80-90%): SAM-generated pseudo labels
+- Target domain (100%): SAM-generated pseudo labels
 - Source domain (10-20%): Ground truth labels
 
 **Process:**
@@ -225,17 +225,6 @@ python self_train.py
 
 ---
 
-## 📊 Expected Performance
-
-### Performance Improvement Across Stages
-
-| Stage | mAP@50 | mAP@50-95 | Improvement |
-|:------|:-------|:----------|:------------|
-| **Baseline** (source only) | ~42% | ~26% | - |
-| **Weak Supervision** (SAM + source) | ~52% | ~34% | +10% / +8% |
-| **Self-Training** (Noisy Student) | ~58% | ~38% | +16% / +12% |
-
-*Performance varies based on domain gap and data quality*
 
 ### Key Advantages
 
