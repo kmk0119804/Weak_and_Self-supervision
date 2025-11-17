@@ -58,14 +58,6 @@ python self_inference.py
 
 **Note:** See individual README files in each folder for detailed instructions.
 
-## Expected Results
-
-| Stage | mAP@50 | Training Time |
-|:------|:-------|:--------------|
-| Baseline | ~42% | 2-4 hours |
-| Weak Supervision | ~52% | 8-12 hours |
-| Self-Training | ~58% | 12-16 hours |
-
 ---
 
 **Questions?** Open an issue or contact: kmk0119804@yonsei.ac.kr
