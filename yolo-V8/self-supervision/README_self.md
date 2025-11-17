@@ -8,8 +8,8 @@ Train YOLOv8 segmentation model using Noisy Student self-training with pseudo la
 
 This module implements **Noisy Student self-training** using:
 - **Weak supervision model** predictions as pseudo labels (teacher)
-- **Target domain images** (100%) with pseudo labels
-- **Small portion (~10-20%) of source domain** with ground truth labels
+- **Target domain images** with pseudo labels
+- **Small portion of source domain** with ground truth labels
 - **Strong data augmentation** for student model (noise injection)
 
 ---
