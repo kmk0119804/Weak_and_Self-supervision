@@ -8,7 +8,7 @@ Train YOLOv8 segmentation model using SAM-generated pseudo labels combined with 
 
 This module trains a **baseline segmentation model** using:
 - **SAM-generated pseudo labels** from target domain images
-- **Small portion (~10-20%) of labeled source domain data**
+- **Small portion of labeled source domain data**
 
 **Purpose:** Train a robust segmentation model that learns from both target domain features (via SAM) and high-quality source annotations.
 
