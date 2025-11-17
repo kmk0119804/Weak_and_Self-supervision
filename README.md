@@ -134,8 +134,8 @@ python step5_json_to_yolo.py
 **Location:** `yolo-V8/weak-supervision/`
 
 **Training Data:**
-- Target domain (100%): SAM-generated pseudo labels
-- Source domain (10-20%): Ground truth labels
+- Target domain: SAM-generated pseudo labels
+- Source domain: Ground truth labels
 
 **Process:**
 ```bash
