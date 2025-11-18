@@ -1,6 +1,6 @@
 # Domain-Adaptive Instance Segmentation Using SAM-Based Weak Supervision and Noisy Student Self-Training
 
-A complete pipeline for training robust segmentation models on construction site CCTV data using weak supervision and self-training approaches.
+A complete pipeline for training robust segmentation models on construction site CCTV data using weak and self-supervision approaches.
 
 ---
 
