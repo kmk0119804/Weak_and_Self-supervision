@@ -26,7 +26,7 @@ This repository implements a domain adaptation framework for instance segmentati
 
 👉 **[Complete Dataset Request Form](https://docs.google.com/forms/d/e/1FAIpQLScpNdkz1ylxaJLIlcUPoM4LkQPIlNcA2Twbl4Yvp7d6OMgMfQ/viewform?usp=header)**
 
-After approval, you will receive a download link via email.
+You can download the dataset immediately after completing the form.
 
 ---
 
