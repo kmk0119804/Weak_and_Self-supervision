@@ -30,6 +30,15 @@ You can download the dataset immediately after completing the form.
 
 ---
 
+**By downloading the dataset, you agree to:**
+- Use the dataset solely for research purposes
+- Not distribute or share the dataset with others
+- Cite this repository if you use the dataset in publications
+
+**For commercial use inquiries, please contact: kmk0119804@yonsei.ac.kr**
+
+---
+
 ## 🛠️ Installation
 
 This project requires both **YOLOv8** and **SAM (Segment Anything Model)** environments.
