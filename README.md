@@ -18,6 +18,17 @@ This repository implements a domain adaptation framework for instance segmentati
 4. **Self-Training**: Improve with Noisy Student approach
 
 ---
+## 📦 Dataset Setup
+
+### 1. Download Dataset
+
+**📋 Request dataset access:**
+
+👉 **[Complete Dataset Request Form](https://docs.google.com/forms/d/e/1FAIpQLScpNdkz1ylxaJLIlcUPoM4LkQPIlNcA2Twbl4Yvp7d6OMgMfQ/viewform?usp=header)**
+
+After approval, you will receive a download link via email.
+
+---
 
 ## 🛠️ Installation
 
