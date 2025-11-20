@@ -277,12 +277,6 @@ Detailed documentation for each stage:
   - Ultralytics YOLOv8 Documentation: https://docs.ultralytics.com/
 - **Segment Anything Model (SAM)**: https://github.com/facebookresearch/segment-anything
   - Kirillov, A., et al. (2023). "Segment Anything." arXiv:2304.02643
-
-### Methodology
-
-- **Noisy Student**: Xie, Q., et al. (2020). "Self-training with Noisy Student improves ImageNet classification." CVPR 2020.
-- **Weak Supervision**: Ratner, A., et al. (2020). "Weak Supervision: A New Programming Paradigm for Machine Learning."
-
 ---
 
 ## 💡 Tips for Best Results
